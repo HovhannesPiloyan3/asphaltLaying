@@ -1,0 +1,73 @@
+.our-services {
+    padding: 90px 0;
+    background-color: #f2f2f2;
+}
+.our-services-container{
+    justify-content: center;
+    flex-direction: column;
+}
+.our-services-title{
+    font-size: 42px;
+    line-height: 1.23;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 90px;
+}
+.our-services-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.our-services-content-articles{
+    display: flex;
+    max-width: 250px;
+    width: 100%;
+    height: 250px;
+    margin-top: 40px;
+}
+.our-services-content a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    word-break: break-word;
+    font-size: 20px;
+    line-height: 1.35;
+    width: 100%;
+}
+.our-services-content-articles h3 {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+.our-services-content-articles button {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    transition-delay: 0.2s; /* Задержка перед анимацией */
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    text-align: center;
+    background: none;
+    height: 45px;
+    font-size: 14px;
+    padding: 0 30px;
+    transform: translateY(10px); /* Начальное смещение кнопки вниз */
+}
+
+.our-services-content-articles:hover button {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0); /* Поднимаем кнопку */
+    transition-delay: 0s; /* Убираем задержку при появлении */
+}
+.our-services-content-articles a h3{
+    text-align: center;
+    width: 100%;
+
+}
+.our-services-content-articles:hover h3 {
+    transform: translateY(-5px); /* Поднятие заголовка при ховере */
+}

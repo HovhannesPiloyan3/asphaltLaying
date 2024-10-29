@@ -1,0 +1,25 @@
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px 0;
+    background-attachment: scroll;
+    background-position: center bottom;
+    background-size: cover;
+}
+.banner-list-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-list-container ul li{
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+}
+.banner-form-container{
+    width: 100%;
+
+}

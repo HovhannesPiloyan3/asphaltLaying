@@ -1,0 +1,24 @@
+.mini-order-form{
+    background-color: #ffffff;
+    opacity: 0.80;
+    border-radius: 20px;
+    margin: 0 auto;
+    max-width: 360px;
+    padding: 34px;
+}
+
+.mini-order-form-button{
+   width: 100%;
+    max-width: 100%;
+    opacity: 1;
+}
+.mini-order-form-input{
+    border-bottom: 1px solid #000;
+    height: 50px;
+}
+.mini-order-form-title{
+    margin-bottom: 20px;
+}
+.mini-order-form-text{
+    margin-top: 20px;
+}
