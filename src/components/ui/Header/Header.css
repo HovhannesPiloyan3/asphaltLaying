@@ -59,7 +59,7 @@
     }
 
     .burger-menu {
-        display: flex;
+        display: block;
         cursor: pointer;
     }
     .header{

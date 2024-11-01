@@ -87,7 +87,9 @@
     .burger-menu {
         display: block;
     }
-
+    .burger-menu-container{
+        display: flex;
+    }
     .burger-icon {
         color: #000;
         cursor: pointer;
