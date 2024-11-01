@@ -23,3 +23,11 @@
     width: 100%;
 
 }
+@media screen and (max-width: 960px) {
+    .banner-container{
+        flex-direction: column;
+    }
+    .mini-order-form{
+        margin-top: 35px;
+    }
+}

@@ -9,7 +9,7 @@ const Banner = () => {
         <div style={{
             backgroundImage: `linear-gradient(to top, rgba(9, 47, 51, 0.6), rgba(8, 29, 31, 0.5)), url(${Bg})`,
         }} className="banner">
-            <div className="container">
+            <div className="container banner-container">
                 <div className="banner-list-container">
                     <ul>
                         <li>АРЕНДА СПЕЦТЕХНИКИ,</li>

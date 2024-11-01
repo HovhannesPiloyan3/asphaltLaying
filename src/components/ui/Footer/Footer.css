@@ -60,3 +60,26 @@
     color: rgb(0, 139, 207);
     font-size: 24px;
 }
+@media screen and (max-width: 1200px) {
+    .footer-title {
+        font-size: 48px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .footer-title {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .footer-text {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .footer-text {
+        font-size: 20px;
+        padding: 41px 20px 0;
+    }
+}
+

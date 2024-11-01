@@ -34,3 +34,14 @@
 
     color: #000000;
 }
+@media screen and (max-width: 960px) {
+    .about-us-container{
+        flex-direction: column;
+
+    }
+
+    .about-us-title {
+        margin-bottom: 30px;
+    }
+
+}

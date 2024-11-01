@@ -1,36 +1,41 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     height: 114px;
     padding: 0 40px;
     background-color: white;
 }
-.header-left{
+
+.header-left {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 50%;
-    padding-right:40px;
+    padding-right: 40px;
 }
-.header-left a{
+
+.header-left a {
     text-decoration: none;
     font-size: 20px;
     color: #000000;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
-
 }
-.header a:hover{
+
+.header a:hover {
     color: #008bcf;
     transition: color 0.5s;
 }
-.header-middle{
+
+.header-middle {
     height: 100%;
 }
-.header-middle img{
+
+.header-middle img {
     height: 100%;
 }
-.header-right{
+
+.header-right {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -38,10 +43,27 @@
     justify-content: flex-start;
     padding-top: 10px;
 }
-.header-right a{
+
+.header-right a {
     text-decoration: none;
     font-size: 25px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     color: #008bcf;
+}
+
+/* Медиазапрос для бургер-меню */
+@media (max-width: 980px) {
+    .header-left, .header-right {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+        cursor: pointer;
+    }
+    .header{
+        padding: 0 20px;
+    }
+
 }

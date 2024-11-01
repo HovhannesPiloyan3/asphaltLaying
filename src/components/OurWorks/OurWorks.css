@@ -56,3 +56,8 @@
     font-size: 14px;
     font-weight: bold;
 }
+@media screen and (max-width: 960px) {
+    .our-works-content-articles {
+        max-width: none;
+    }
+}

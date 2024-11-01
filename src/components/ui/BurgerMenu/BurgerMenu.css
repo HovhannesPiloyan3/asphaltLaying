@@ -1,0 +1,114 @@
+.burger-menu {
+    display: none;
+}
+.burger-menu-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.burger-icon {
+    color: #000;
+    cursor: pointer;
+
+    z-index: 10;
+}
+
+.burger-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 240, 240, 0.95); /* Полупрозрачный фон */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+
+.burger-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.burger-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+}
+.burger-icon {
+    width: 30px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.burger-menu {
+    display: none;
+}
+
+
+
+.burger-icon span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    transition: 0.3s;
+}
+
+.burger-nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    overflow: scroll;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.burger-nav a {
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 980px) {
+    .burger-menu {
+        display: block;
+    }
+
+    .burger-icon {
+        color: #000;
+        cursor: pointer;
+    }
+
+    .burger-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: white;
+        position: absolute;
+        top: 50px; /* Настройте по вашему макету */
+        left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .burger-nav a {
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+        padding: 10px 0;
+    }
+}

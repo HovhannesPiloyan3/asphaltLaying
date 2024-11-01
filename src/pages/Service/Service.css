@@ -1,0 +1,38 @@
+.service{
+    padding:80px 0 0 0 ;
+}
+.service-content{
+    display: flex;
+}
+.service-img {
+    max-width: 460px;
+    width: 100%;
+    height: 436px;
+    object-fit: cover; /* или используйте contain, если нужно видеть полностью */
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.service-text {
+    width: 100%;
+
+}
+.service-text h2{
+    font-size: 26px;
+    line-height: 1.23;
+    text-align: center;
+    text-transform: uppercase;
+}
+.service-text p{
+    margin-top: 28px;
+    font-size: 18px;
+    line-height: 1.55;
+}
+@media screen and (max-width: 960px) {
+    .service-content{
+        flex-direction: column;
+    }
+    .service-img{
+        max-width: none;
+        margin: 0 0 28px 0;
+    }
+}

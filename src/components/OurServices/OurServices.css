@@ -43,6 +43,7 @@
 }
 .our-services-content-articles button {
     visibility: hidden;
+    display: none;
     opacity: 0;
     transition: opacity 0.4s ease, transform 0.4s ease;
     transition-delay: 0.2s; /* Задержка перед анимацией */
@@ -59,6 +60,7 @@
 
 .our-services-content-articles:hover button {
     visibility: visible;
+    display: block;
     opacity: 1;
     transform: translateY(0); /* Поднимаем кнопку */
     transition-delay: 0s; /* Убираем задержку при появлении */
@@ -70,4 +72,20 @@
 }
 .our-services-content-articles:hover h3 {
     transform: translateY(-5px); /* Поднятие заголовка при ховере */
+}
+@media screen and (max-width: 1200px) {
+    .our-services-content-articles {
+        max-width: 220px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .our-services-content-articles {
+        width: 40%;
+        max-width: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    .our-services-content-articles  {
+        width: 100%;
+    }
 }
